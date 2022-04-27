@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+.container{
+    background-color: lightgray;
+    width: 800px;
+    margin: 0 auto;
+}
+header {
+    min-height: 50px;
+}
+h1 {
+    min-height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#login {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+button {
+    margin-right: 10px;
+}
+#main {
+    background-color: white;
+}
+.dojonary {
+    min-height: 300px;
+    padding-top: 10px;
+    background-color: white;
+}
+.left {
+    flex: 2;
+}
+.right {
+    flex: 1;
+    align-self: flex-start;
+    text-align: center;
+}
+.card {
+    min-height: 100px;
+    margin-bottom: 1.5rem;
+    border: 3px solid black;
+}
+.word {
+    flex: 1;
+}
+.def {
+    flex: 3;
+}
+#def-button {
+    background-color: orange;
+    padding: 5px;
+
+}
+#add-def {
+    background-color: green;
+    padding: 5px;
+}
+.word {
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
